@@ -15,15 +15,15 @@ function addTask( ){
     removeBtn.onclick = function () {
       taskList.removeChild(newTask);    
     };
-    removeBtn.style.backgroundColor='red';
-    removeBtn.style.opacity = '0.6';
-    removeBtn.style.height = '40px';
-    removeBtn.style.width = '60px';
-    removeBtn.style.marginLeft = '10px';
-    removeBtn.style.borderStyle = 'none';
-    removeBtn.style.color = '#fff';
-
-
+          removeBtn.style.backgroundColor='transparent';
+      removeBtn.style.opacity = '0.8';
+      removeBtn.style.height = '40px';
+      removeBtn.style.width = '60px';
+      removeBtn.style.marginLeft = '10px';
+      removeBtn.style.borderStyle = 'none';
+      removeBtn.style.color = '#000';
+      removeBtn.style.fontWeight= "700";
+      removeBtn.style.fontSize= '1vw';
 
       newTask.appendChild(removeBtn);
       taskList.appendChild(newTask);
